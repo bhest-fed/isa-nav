@@ -1,0 +1,35 @@
+.btns {
+    /*width: 465px;*/
+    margin-top: 50px;
+}
+
+.btns_btn {
+    margin-right: 2px;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-family: 'AvenirNextCondensed-Regular';
+    line-height: 1;
+}
+
+.btns_btn--gray {
+    background-color:  slategray;
+}
+
+.btns_btn--blue {
+    background-color: royalblue;
+}
+
+.btns_btn--brown {
+    background-color: brown;
+}
+
+.btns_btn--red {
+    background-color: darkred;
+}
+
+.btns_btn:focus {
+    background-color: saddlebrown;
+    outline: none;
+}

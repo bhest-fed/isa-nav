@@ -1,0 +1,26 @@
+.global-nav {
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+    margin: 0;
+    float: right;
+}
+
+.global-nav_header-link {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 4px 0 0;
+}
+
+.global-nav_header-link:last-child {
+    margin-right: 0;
+}
+
+.global-nav_header-link span {
+    font-size: 12px;
+}
+
+.header-label--hot {
+    color: steelblue;
+}

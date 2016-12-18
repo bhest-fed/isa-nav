@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <menu class="global-nav">
+            <li class="global-nav_header-link" ontouchend="nav.gotoSlide('1000')"><span class="global-nav header-label--hot">Prescribing Information</span></li>
+            <li class="global-nav_header-link" ontouchend="nav.gotoSlide('2000')"><span class="global-nav header-label--hot">Important Safety Information</span></li>
+            <li class="global-nav_header-link" ontouchend="nav.gotoSlide('3000')"><span class="global-nav header-label--hot">References</span></li>
+            <li class="global-nav_header-link" ontouchend="nav.gotoSlide('1')"><span class="global-nav header-label--hot">Home</span></li>
+        </menu>
+       
+       <div class="btns">
+           <button class="btns_btn btns_btn--gray" onclick="nav.gotoSlide('1')">Launch Pad</button>
+           <button class="btns_btn btns_btn--brown"  onclick="nav.gotoSlide('1000')">References</button>
+           <button class="btns_btn btns_btn--gray"  onclick="nav.gotoSlide('2')">Core Visual Aid</button>
+           <button class="btns_btn btns_btn--blue"  ontouchend="nav.gotoSlide('3')">Efficacy Home</button>
+           <button class="btns_btn btns_btn--red"  onclick="nav.gotoSlide('6')">Evidence</button>
+       </div>
+        
+    </div>
+    <script src="irep.js"></script>
+    <script src="toc.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>
