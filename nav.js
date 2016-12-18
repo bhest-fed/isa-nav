@@ -8,7 +8,7 @@ var nav = (function (tocCtrl) {
     _gap = '_';
     _filext = '.zip';
     
-    // Private function to construct the Veeva slide link
+    // Private function to construct Veeva slide link
     var _buildLink = function(id) {
 
         if(_toc.links[id] == undefined || _toc.links[id] == '') {
@@ -21,14 +21,16 @@ var nav = (function (tocCtrl) {
         return navStr +  ', ' + _isaName;
     };
 
-    // Public API for Veeva Slide navigation
+    // API for Synvisc ISA to utilize Veeva Slide navigation
     return {
         gotoSlide : function(id) {
-            var output = _buildLink(id);
+            var output, jumpToSlide;
 
-            var jumpToSlide = function () {
+            output = _buildLink(id);
+
+            jumpToSlide = function () {
                 iRepGoToSlide(output);
-            }
+            };
 
             jumpToSlide(); 
         } 
