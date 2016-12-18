@@ -3,15 +3,18 @@ var toc = (function() {
 
     // Datastore for ISA's Slide IDs
     var _links = {
-        // Global Content links
-        1000: 'PRI',
-        2000: 'ISI',
-        3000: 'REF',
-        3003: '3DK',
-        3001: 'CVI', // Crosslinking Video
-        3002: 'MEV',
+        //ID: 'Tracking ' // Page name  
 
-        // Slide Links
+        // Global Content links
+        1000: 'PRI', // Prescribing Information (Synvisc-One)
+        2000: 'ISI', // Important Safety Information
+        3000: 'REF', // References
+
+        3001: 'CVI', // Crosslinking Video
+        3002: 'MEV', // Manufacturing Excellence Video
+        3003: '3DK', // 3D Knee - [From the Launch Pad]
+
+        // Slide Links 
         1: 'LAU', // Launch Pad
         2: 'CVH', // Core Visual Aid Home
         3: 'INT', // Introduction
