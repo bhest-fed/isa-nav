@@ -1,5 +1,8 @@
+// Navigation constructor Controller
+
 var nav = (function(tocCtrl) {
     'use strict'
+
     // Declare private variables
     var _toc, _isaName, _gap, _filext;
 

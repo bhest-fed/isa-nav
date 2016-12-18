@@ -1,3 +1,5 @@
+// Table of Content Controller
+
 var toc = (function() {
     'use strict'
 
