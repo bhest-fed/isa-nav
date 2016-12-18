@@ -3,10 +3,10 @@ var nav = (function (tocCtrl) {
     // Declare private variables
     var _toc, _isaName, _gap, _filext;
 
-    _toc = tocCtrl;
+    _toc     = tocCtrl;
     _isaName = 'SyncviscBranded2017';
-    _gap = '_';
-    _filext = '.zip';
+    _gap     = '_';
+    _filext  = '.zip';
     
     // Private function to construct Veeva slide link
     var _buildLink = function(id) {

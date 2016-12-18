@@ -1,0 +1,13 @@
+.link-list {
+    margin: 0;
+    padding: 0;
+}
+.link-list_link {
+    list-style-type: none;
+    padding: 5px 0 0 0;
+}
+
+.link-list_link_label {
+    font-size: 12px;
+    color: #105b9b;
+}
