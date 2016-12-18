@@ -1,6 +1,7 @@
 var toc = (function() {
     'use strict'
 
+    // Datastore for ISA's Slide IDs
     var _links = {
         // Global Content links
         1000: 'PRI',
