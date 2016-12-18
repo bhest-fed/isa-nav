@@ -1,4 +1,6 @@
 var toc = (function() {
+    'use strict'
+
     var _links = {
         // Global Content links
         1000: 'PRI',

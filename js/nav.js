@@ -1,4 +1,5 @@
 var nav = (function(tocCtrl) {
+    'use strict'
     // Declare private variables
     var _toc, _isaName, _gap, _filext;
 
@@ -32,6 +33,7 @@ var nav = (function(tocCtrl) {
                 // com.veeva.clm.gotoSlide(output);
             };
 
+            // send link string to the Veeva method to process it
             jumpToSlide();
         }
     };
