@@ -1,7 +1,13 @@
+.link-list-wrap {
+    width: 200px;
+    margin: 0 0 0 550px;
+}
+
 .link-list {
     margin: 0;
     padding: 0;
 }
+
 .link-list_link {
     list-style-type: none;
     padding: 5px 0 0 0;

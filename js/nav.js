@@ -1,38 +1,38 @@
-
-var nav = (function (tocCtrl) {
+var nav = (function(tocCtrl) {
     // Declare private variables
     var _toc, _isaName, _gap, _filext;
 
-    _toc     = tocCtrl;
+    _toc = tocCtrl;
     _isaName = 'SyncviscBranded2017';
-    _gap     = '_';
-    _filext  = '.zip';
-    
+    _gap = '_';
+    _filext = '.zip';
+
     // Private function to construct Veeva slide link
     var _buildLink = function(id) {
 
-        if(_toc.links[id] == undefined || _toc.links[id] == '') {
+        // If no ID was pass set the ID to the default link
+        if (_toc.links[id] == undefined || _toc.links[id] == '') {
             var navStr = _isaName + _gap + _toc.links[1] + _filext;
-        }
-        else {
+        } else {
             var navStr = _isaName + _gap + _toc.links[id] + _filext;
         }
 
-        return navStr +  ', ' + _isaName;
+        return navStr + ', ' + _isaName;
     };
 
     // API for Synvisc ISA to utilize Veeva Slide navigation
     return {
-        gotoSlide : function(id) {
+        gotoSlide: function(id) {
             var output, jumpToSlide;
 
             output = _buildLink(id);
 
-            jumpToSlide = function () {
+            jumpToSlide = function() {
                 iRepGoToSlide(output);
+                // com.veeva.clm.gotoSlide(output);
             };
 
-            jumpToSlide(); 
-        } 
+            jumpToSlide();
+        }
     };
 })(toc);

@@ -9,15 +9,15 @@ var toc = (function() {
         3002: 'MEV',
 
         // Slide Links
-        1 : 'LAU', // Launch Pad
-        2 : 'CVH', // Core Visual Aid Home
-        3 : 'INT', // Introduction
-        4 : 'EFH', // Efficacy Home
-        5 : 'SEF', // SYNVISC Efficacy
-        6 : 'SOE', // Synvisc-One Efficacy
-        7 : 'EVH', // Evidence Home
-        8 : 'SVP', // SYNVISC Versus Placebo
-        9 : 'SOE', // Synvisc-One Evidence
+        1: 'LAU', // Launch Pad
+        2: 'CVH', // Core Visual Aid Home
+        3: 'INT', // Introduction
+        4: 'EFH', // Efficacy Home
+        5: 'SEF', // SYNVISC Efficacy
+        6: 'SOE', // Synvisc-One Efficacy
+        7: 'EVH', // Evidence Home
+        8: 'SVP', // SYNVISC Versus Placebo
+        9: 'SOE', // Synvisc-One Evidence
         10: 'SVH', // SYNVISC Versus Hyalgan
         11: 'SVI', // SYNVISC Versus ICS
         12: 'SVN', // SYNVISC Versus NSAIDS
@@ -36,11 +36,9 @@ var toc = (function() {
         25: 'MHO', // Manufacturing Excellence Home
         26: 'BIH', // Bibilography Home
         27: '',
-        28: '',
-        29: ''
     };
 
     return {
-        links : _links
+        links: _links
     }
 })();
