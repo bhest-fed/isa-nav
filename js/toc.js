@@ -7,7 +7,7 @@ var toc = (function() {
     var _links = {
         //ID: 'Tracking ' // Page name  
 
-        // Global Content links
+        // Global Header Content links
         1000: 'PRI', // Prescribing Information (Synvisc-One)
         2000: 'ISI', // Important Safety Information
         3000: 'REF', // References
@@ -46,6 +46,7 @@ var toc = (function() {
         27: '',
     };
 
+    // Exposed API for the Table of Content Controller
     return {
         links: _links
     }
