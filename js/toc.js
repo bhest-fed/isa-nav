@@ -4,7 +4,7 @@ var toc = (function() {
     'use strict'
 
     // Datastore for ISA's Slide IDs
-    var _links = {
+    var _datalist = {
         //ID: 'Tracking ' // Page name  
 
         // Global Header Content links
@@ -48,6 +48,6 @@ var toc = (function() {
 
     // Exposed API for the Table of Content Controller
     return {
-        links: _links
+        links: _datalist
     }
 })();
